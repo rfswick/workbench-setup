@@ -1,11 +1,14 @@
 ---
 title: "workbench-setup"
+editor_options: 
+  chunk_output_type: console
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+library(tidyverse)
+```
 
 ```{r}
-1 + 1
+data <- read_csv("/courses/EDS221/example/data.csv")
 ```
+
